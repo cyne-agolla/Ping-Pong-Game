@@ -1,0 +1,102 @@
+.landing{
+  background-image: url('../img/backgrounds/landing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.logo{
+  text-align: center;
+  font-size: 15px;
+}
+p{
+  color:white;
+}
+.col-md-4{
+  align-items: right;
+}
+#breakfast{
+  background-image: url("../img/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+#lunch{
+  background-image: url("../img/foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+
+}
+
+#dinner{
+  background-image: url("../img/foodtop/dinner.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.paragraph{
+  text-align: left;
+}
+.container{
+  background-image: url('../img/backgrounds/foodsBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top:20px;
+  margin-bottom: 300px;
+}
+#chickenBurger{
+  background-image: url("../img/fastfood/chickenBurger.jpg");
+  background-repeat: no-repeat;
+  height:50%;
+  width:200%;
+}
+#beefBurger{
+  background-image: url("../img/fastfood/beefBurger.jpg");
+  background-repeat: no-repeat;
+  height:50%;
+  width:200%;
+}
+#chickenPizza{
+  background-image: url("../img/fastfood/chickenPizza.jpg");
+  background-repeat: no-repeat;
+  height:50%;
+  width:200%;
+}
+.table{
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 50%;
+  width:70%;
+  align-self: center;
+}
+
+  nav li {
+  float: right;
+}
+
+nav ul{
+  overflow: hidden;
+}
+
+ nav a{
+    display: inline-block;
+  }
+
+nav ul a{
+  background-color: grey;
+  text-align: right;
+}
+ nav ,ul ,li ,a{
+    text-decoration:none;
+    color: black;
+    list-style-type: none;
+    padding:15px;
+}
+#sec{
+  background-color: white;
+  color: orange;
+}

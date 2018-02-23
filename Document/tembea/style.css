@@ -1,0 +1,70 @@
+body{
+
+  font-family: 'Work Sans', sans-serif;
+  background-image: url("http://i.imgur.com/z2Uj0cK.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin:2px;
+  font-size: large;
+  }
+
+nav li {
+  float: right;
+}
+
+nav ul{
+  overflow: hidden;
+}
+
+ nav a{
+    display: block;
+  }
+
+nav ul a:hover{
+  background-color: #D35400;
+  text-align: right;
+  color:blue;
+}
+
+tr:hover{
+  background-color: #2E2E2E;
+}
+ nav ,ul ,li ,a{
+    text-decoration:none;
+    padding: 15px;
+    color:white;
+    list-style-type: none;
+}
+
+table ,th ,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    content-align:center;
+    color:white;
+    position: relative;
+  }
+
+h3{
+  display: block;
+  width: 180px;
+  padding: 10px;
+  border: 2px solid white;
+  position:relative;
+  left: 560px;
+  font-size: 25px;
+}
+
+h3:hover{
+  background-color:#D35400;
+  color:blue;
+  content-align: center;
+
+}
+.services{
+  font-size:20px;
+  width:500px;
+  length:300px;
+  margin:auto;
+  box-sizing: border-box;
+}
